@@ -26,4 +26,4 @@ bioRxiv 598383; doi: https://doi.org/10.1101/598383
 
 Some of the helper functions were written with the help of Joe Donovan (https://github.com/joe311), Vilim Štih(https://github.com/vilim) and Thomas Helmbrecht.
 
-# Answer: Yes. This approach reveals functionally distinct neuronal classes.
+# Answer: Yes. This approach reveals functionally distinct neuronal classes. See Notebook for analysis
