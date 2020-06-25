@@ -1,0 +1,55 @@
+%Metadata for:
+FileName : <memory>
+MestagMemo : C1*
+Type : XY
+Comment :   F4 ; lineshift2xyz2
+MeasurementDate : 2020.01.17. 17:25:45,846
+Creator : O1-613.SN20120028002-HBaier_1/fernandes.fernandes using MES v6.2.5222 ©Femtonics
+creatingMEScRevision : 5222
+creatingMEScVersion : 6
+experimenterHostname : O1-613
+experimenterProfilename : fernandes
+experimenterSetupID : SN20120028002-HBaier_1
+experimenterUsername : fernandes
+ZlevelArm : -11524.39
+ZlevelFast : 0
+ZlevelOrigin : -11524.4
+>Devices start
+ dummy : 20
+ tIR : 0
+ UG : 70
+ UR : 0
+ servoCam2P : off
+ PCm : 0.01
+ LN_x : -6412.4316
+ LN_y : -960.9375
+ Im : 6.9986
+ ObjectiveArm : -11524.39
+ FastZ : 0
+<Devices end
+>Context start : Measure
+%SIZE
+ Width : 559
+ Height : 345
+ D3Size : 439
+%VOXEL
+ WidthStep : 0.8
+ HeightStep : 0.8
+ D3Step : 956.5608
+
+ WidthOrigin : 0
+ HeightOrigin : 0
+ D3Origin : 0
+ WidthName : L
+ HeightName : t
+ D3Name : t
+ WidthUnit : µm
+ HeightUnit : µm
+ D3Unit : ms
+ Average : 4
+ Linelength : 
+>>Channel start : UG
+DataType : uint16
+LUTchannel : ch_g
+<<Channel end
+<Context end
