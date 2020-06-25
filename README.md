@@ -14,7 +14,7 @@ The regressors are then convolved with a kernel describing the GCaMP response fu
 
 A linear regression approach (using Python scikit-learn) was used to select neurons, removing neurons with activity not locked to stimulus presentation (spontaneously active).
 
-Extracted neurons were clustered using hierarchical clustering (agglomerative approach with Python scipy.cluster.hierarchy.linkage) for visualization of response types).
+Extracted neurons were clustered using hierarchical clustering (agglomerative approach with Python scipy.cluster.hierarchy.linkage) for visualization of response types.
 
 The maximum score of either the prey-like stimuli (nasalward and temporalward), looming or dimming stimuli was used to assign ROIs to specific response types.
 
