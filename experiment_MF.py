@@ -1,5 +1,5 @@
 from __future__ import (print_function, division)
-__authors__ = 'fernandes, vilimstich,helmbrecht'
+__authors__ = 'fernandes, vilimstich, helmbrecht'
 
 import numpy as np
 import scipy.signal
