@@ -3,7 +3,7 @@
 Example of Imaging analysis of neuronal activity.
 Related to Fernandes et. al 2019
 
-# Question: Can we find identify functionally distinct neurons by using clustering and linear regression?
+# Question: Can we identify functionally distinct neurons by using clustering and linear regression?
 
 Brief description of the approach to answer the question:
 
