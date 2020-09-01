@@ -15,7 +15,7 @@ import seaborn as sns
 cd "D:/Projector measurements"
 
 
-# In[3]:
+# In[11]:
 
 
 '''Baseline correction function removes baseline absorption from an acquired spectrum'''
@@ -61,7 +61,7 @@ for projector in projectors:
     #plt.figure(figsize=(5,5))
     plt.plot(projector.nm[700:-350],projector.intensity[700:-350], color=colors[count])
     plt.xlabel('Wavelenght')
-    plt.ylabel('Intensity')
+    plt.ylabel('Intensity (a.u.)')
     #plt.title(projectors_names[count])
     sns.despine()
 
@@ -76,11 +76,23 @@ for projector in projectors:
     plt.figure(figsize=(5,5))
     plt.plot(projector.nm[700:-350],projector.intensity[700:-350], color=colors[count])
     plt.xlabel('Wavelenght')
-    plt.ylabel('Intensity')
+    plt.ylabel('Intensity (a.u.)')
     plt.title(projectors_names[count])
     sns.despine()
     plt.savefig(str(projectors_names[count])+'.png')
     plt.savefig(str(projectors_names[count])+'.svg')
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
